@@ -1,0 +1,42 @@
+@media (max-width: 450px){
+    body{
+        flex-direction: column;
+    }
+    .parte-esquerda{
+        padding: 2rem;
+        padding-bottom: 0;
+    }
+    .parte-esquerda h2{
+        font-size: 3rem;
+    }
+    #exclusivo, #date{
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        color: darkmagenta;
+    }
+    .info-users{
+        flex-direction: column;
+    }
+    .user-card{
+        width: 100%;
+        padding: 2rem;
+    }
+    .user-card img{
+        width: 180px;
+    }
+    .user-card .user-name{
+        font-size: 1.6rem;
+    }
+    .user-card .user-role{
+        font-size: 1.4rem;
+    }
+
+    #form-inner{
+        padding: 2rem;
+        margin: 2rem;
+    }
+
+    #register-form, #name-container{
+        gap: 1rem;
+    }
+}
